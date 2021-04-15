@@ -1,0 +1,37 @@
+:root {
+  font-size: 62.5%;
+  --color-primary: #8257E5;
+  --background: #F0F0F7;
+  --color-button-sended: #04D361;
+  --color-button-delete: #E33D3D;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  background-color: var(--background);
+}
+
+a {
+  color: var(--background);
+  outline: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+
+main {
+  max-width: 73.6em;
+  margin: auto;
+  background: #FFFFFF;
+  margin-top: -6.4rem;
+  margin-bottom: 8rem;
+  border-radius: 0.8rem;
+  
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+
+  <link rel="stylesheet" href="../css/global_styles.css">
+  <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">
+        Voltar
+      </a href="#">
+
+      <a href="#">
+        Logo
+      </a href="#">
+    </nav>
+
+    <div id="contentHeaderTitleDescription">
+      <h1>Que incrivel que você que dar aula</h1>
+      <span>O primeiro passo, é preencher esse
+        formulário de inscrição.</span>
+    </div>
+  </header>
+  
+  <main>
+    <form action="#" id="form" >
+      <fieldset>
+        <legend>Seus dados</legend>
+
+       <div class="form_input">
+        <label for="nome_completo">Nome completo</label>
+        <input type="text" id="nome_completo" name="nome_completo" required>
+       </div>
+
+       <div class="form_input">
+        <label for="foto">Link da sua foto</label>
+        <input type="text" id="foto" name="foto" required>
+       </div>
+
+       <div class="form_input">
+        <label for="whatsapp">Whatsapp</label>
+        <input type="text" id="whatsapp" name="whatsapp" required>
+       </div>
+
+       <div class="form_input">
+        <label for="bio">Biografia</label>
+        <textarea id="bio" name="bio" required></textarea>
+       </div>
+       
+      </fieldset>
+
+      <fieldset>
+          <legend>Sobre a aula</legend>
+          <select class="form_input" name="selected_materia" id="selected_materia">
+            <option value="matematica">Matemática</option>
+            <option value="fisica">Física</option>
+            <option value="quimica">Química</option>
+            <option value="portugues">Português</option>
+          </select>
+           <div class="form_input">
+            <label for="aula">Custo por aula</label>
+            <input type="range" id="aula" name="aula" required>
+            <strong id="value_range_input">R$0,00</strong>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <div id="title-hours">
+            <legend>Horário disponível</legend>
+            <button type="button" id="new_hours">Novo horário</button>
+          </div>
+
+        <div id="hours">
+          <select name="day" id="day">
+            <option value="segunda">Segundo</option>
+            <option value="terça">Terça</option>
+            <option value="quarta">Quinta</option>
+            <option value="Sexta">Sexta</option>
+            <option value="Sabado">Sabado</option>
+            <option value="domingo">Domingo</option>
+          </select>
+
+          <div id="start-to-end">
+            <div id="start">
+              <label for="input-start" >Das</label>
+              <input type="number" name="input-start" id="input-start" required>
+            </div>
+  
+            <div  id="end">
+              <label for="input-end">Até</label>
+              <input maxlength="0" type="number" name="input-end" id="input-end" required>
+            </div>
+          </div>
+
+          <div id="groupCash">
+            
+          </div>
+         </div>
+        </fieldset>
+
+        <fieldset>
+          <input type="file" name="file" id="file">
+        </fieldset>
+        <!-- <button type="submit">Enviar</button> -->
+        <input type="submit" value="Submit" id="submit">
+    </form>
+  </main>
+
+  <noscript>Você precisa liga o javascript para todas as funcionalidades funcionar.</noscript>
+  <script src="../js/form.js" ></script>
+  <!-- <script type="module" src="../js/Validate.js" ></script> -->
+</body>
+
+</html>

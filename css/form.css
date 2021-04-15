@@ -1,0 +1,137 @@
+header {
+  background-color: var(--color-primary);
+  height: 368px;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.811rem;
+  margin-bottom: 8rem;
+  margin: 1.811rem 16rem 8rem;
+  font-size: 1.6rem;
+  font-weight: 900;
+}
+
+#contentHeaderTitleDescription {
+  margin-left: 35.2rem;
+  color: var(--background);
+  width: 37.3rem;
+}
+
+#contentHeaderTitleDescription h1 {
+  font-size: 3.6rem;
+  line-height: 4.2rem;
+}
+
+#contentHeaderTitleDescription span {
+  line-height: 2.6rem;
+  font-size: 1.6rem;
+  width: 28.3rem;
+}
+
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6.4rem;
+}
+fieldset legend {
+  font-size: 2.4rem;
+  margin-top: 5.6rem;
+  margin-bottom: 4rem;
+  font-weight: 900;
+  color: #32264D
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2.6rem;
+}
+
+.form_input label {
+  font-size: 1.4rem;
+  color: #9C98A6;
+  margin-bottom: 0.8rem;
+}
+
+fieldset input, fieldset select {
+  width: 60.8rem;
+  height: 5.6rem;
+  font-size: 1.6rem;
+}
+
+#selected_materiam, select {
+  height: 5rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+#value_range_input {
+  margin: auto;
+  font-size: 2.4rem;
+}
+
+#bio {
+  height: 16.8rem;
+  width: 60.8rem;
+  font-size: 1.6rem;
+}
+
+#title-hours {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title-hours a {
+  margin-right: 6.4rem;
+  color: #8257E5;
+  font-weight: 700; 
+}
+
+#start-to-end {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+#start-to-end input {
+  width: 12.8rem;
+}
+
+#hours {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#start, #end, #hours select {
+  margin-right: 1.6rem;
+}
+
+#hours select {
+  width: 32rem;
+}
+
+#start, #end {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+#submit {
+  margin-left: 50%;
+  margin-bottom: 10px;
+}
+
+#groupCash {
+  display: flex;
+  flex-direction: column;
+}
